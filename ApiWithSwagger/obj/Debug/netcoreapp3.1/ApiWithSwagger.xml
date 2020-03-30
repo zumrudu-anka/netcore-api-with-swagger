@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiWithSwagger</name>
+    </assembly>
+    <members>
+        <member name="T:ApiWithSwagger.Controllers.WeatherForecastController">
+            <summary>Weather Forecast Controller</summary>
+        </member>
+        <member name="M:ApiWithSwagger.Controllers.WeatherForecastController.Get">
+             <summary>
+             Get All Item
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 Get /WeatherForecast
+                 [
+                     {
+                        "Date": "2020-03-31T04:18:06.4025848+03:00",
+                         "temperatureC": 8,
+                         "temperatureF": 46,
+                         "summary": "Scorching"
+                     },
+                     {
+                        "date": "2020-04-01T04:18:06.4028455+03:00",
+                         "temperatureC": 38,
+                         "temperatureF": 100,
+                         "summary": "Bracing"
+                     }
+                 ]
+            
+             </remarks>
+             <returns>List of WeatherForecast</returns>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+        </member>
+        <member name="M:ApiWithSwagger.Controllers.WeatherForecastController.Get(System.Int32)">
+            <summary>
+            Get Specific Item
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:ApiWithSwagger.WeatherForecast">
+            <summary>
+            Class which auto added by api
+            </summary>
+        </member>
+        <member name="P:ApiWithSwagger.WeatherForecast.Date">
+            <summary>
+            Forecast Date
+            </summary>
+        </member>
+        <member name="P:ApiWithSwagger.WeatherForecast.TemperatureF">
+            <summary>
+            Temperature from fahrenheit
+            </summary>
+        </member>
+        <member name="P:ApiWithSwagger.WeatherForecast.Summary">
+            <summary>
+            Summary
+            </summary>
+        </member>
+    </members>
+</doc>

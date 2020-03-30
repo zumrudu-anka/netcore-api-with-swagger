@@ -1,2 +1,2 @@
 # NetCoreAPIWithSwagger
-:globe_with_meridians: Net Core API With Swagger
+Net Core API With Swagger Integration for Open API Documentation

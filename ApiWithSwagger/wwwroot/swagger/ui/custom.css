@@ -1,0 +1,30 @@
+.swagger-ui .topbar {
+    background-color: gray;
+    border: 3px solid deepskyblue;
+    box-shadow: 0 0 5px 5px deepskyblue;
+}
+
+.swagger-ui .information-container.wrapper a{
+    font-size: large;
+    color: teal;
+    font-weight: bold;
+}
+
+.swagger-ui .information-container.wrapper a:hover{
+    text-shadow: 0 0 15px teal;
+    animation: animate 1s linear infinite;
+
+}
+
+@keyframes animate {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.swagger-ui .opblock-body{
+    background-color: black;
+}
